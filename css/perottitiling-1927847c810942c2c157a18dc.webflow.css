@@ -594,13 +594,18 @@
 .section-5 {
   height: auto;
   padding: 100px 10% 140px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1280px;
 }
 
 .section-5._2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .image-4 {
